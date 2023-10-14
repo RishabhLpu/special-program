@@ -1,0 +1,11 @@
+//We used use reference variable to store another variable.
+#include <iostream>
+int main() {
+    // Write C++ code here
+    int x=5;
+    int &y=x;// we can say that y is another name of x.
+    y++;
+    std::cout <<y;
+
+    return 0;
+}
