@@ -1,0 +1,9 @@
+//print hello world without semi colon
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        if(System.out.printf("Hello, World!")==null){
+        }
+        }
+    }
+}
